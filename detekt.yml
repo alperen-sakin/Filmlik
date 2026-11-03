@@ -25,8 +25,7 @@ style:
   WildcardImport:
     active: false
   MagicNumber:
-    active: true
-    excludes: [ '**/theme/**' ]
+    active: false
 
 naming:
   FunctionNaming:
