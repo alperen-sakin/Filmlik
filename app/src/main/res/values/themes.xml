@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Filmlik" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
