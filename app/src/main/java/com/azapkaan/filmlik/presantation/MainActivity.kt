@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.Surface
-import com.azapkaan.filmlik.presantation.locationSelectScreen.LocationSelectScreen
+import com.azapkaan.filmlik.navigation.Navigation
 import com.azapkaan.filmlik.ui.theme.FilmlikTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     shape = RectangleShape
                 ) {
-                    LocationSelectScreen()
+                    Navigation()
                 }
             }
         }
